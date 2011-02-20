@@ -281,6 +281,7 @@ h3
 }
 
 /* 1.2 Button */
+
 a.gradient-button, .gradient-button:visited
 {
 	margin-top:-5px;
@@ -304,10 +305,6 @@ a.gradient-button, .gradient-button:visited
 	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
 	border-bottom: 1px solid rgba(0,0,0,0.25);
 }
-a.gradient-button:hover
-{
-	background-color: #006e87;
-}
 a.gradient-button:active
 {
 	top: 1px;
@@ -322,10 +319,26 @@ a.gradient-button:active
 {
 	background-color:#00A6CB;
 }
+a.blue.gradient-button:hover
+{
+	background-color: #006e87;
+}
+.orange.gradient-button
+{
+	background-color:#ff7f00;
+}
+a.orange.gradient-button:hover
+{
+	background-color: #dd6e00;
+}
 /*Button Positions*/
 h2 span a
 {
 	font-size:2em;
+	float:right;
+}
+h3 span a
+{
 	float:right;
 }
 .title-button
@@ -446,12 +459,31 @@ span.menu-button
 }
 
 /* 4.0 Dashboard Page */
+/* 4.1 Project list */
 .project-list
 {
   float:left;
   width:48%;
   margin-right:2%;
 }
+.project-list ul
+{
+  padding:0px;
+  margin:0px;
+  list-style:none;
+}
+.project-list ul li
+{
+  padding:5px 0 5px 0;
+  border-bottom:#c9c9c9 1px solid;
+}
+.project-list ul.sub-items  li
+{
+  font-size:.8em;
+  display:inline;
+  border:none;
+}
+/* 4.2 Activity list */
 .activity-stream
 {
   float:left;
