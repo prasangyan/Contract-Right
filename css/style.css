@@ -1,7 +1,7 @@
 /* Table of contents */
 /*
 	1.0 Global Styles
-	2.0
+	2.0 Header
 */
 
 /*
@@ -277,46 +277,7 @@ h3
 	margin-bottom: 20px;
 }
 
-/* 1.2 Main navigation*/
-.header ul
-{
-  background:#00A6CB;
-  color:#fff;
-  list-style:none;
-  margin:0;
-  padding:10px;
-}
-
-.header ul li
-{
-  display:inline;
-  padding:10px;
-}
-.header ul li a
-{
-  color:#fff;
-  text-decoration:none;
-  padding:10px;
-}
-.header ul li a.selected
-{
-  background:#ff7f00;
-  color:#fff;
-  text-decoration:none;
-  -moz-box-shadow:inset 0 0 10px #a50;
-  -webkit-box-shadow:inset 0 0 10px #a50;
-  box-shadow:inset 0 0 10px #a50;
-}
-.header ul li a:hover
-{
-  background:#ff7f00;
-  color:#fff;
-  text-decoration:none;
-  -moz-box-shadow:inset 0 0 10px #773b00;
-  -webkit-box-shadow:inset 0 0 10px #773b00;
-  box-shadow:inset 0 0 10px #773b00;
-}
-/*Button*/
+/* 1.2 Button */
 a.gradient-button, .gradient-button:visited
 {
 	margin-top:-5px;
@@ -342,11 +303,11 @@ a.gradient-button, .gradient-button:visited
 }
 a.gradient-button:hover
 {
-	background-color: #006e87; 
+	background-color: #006e87;
 }
 a.gradient-button:active
-{ 
-	top: 1px; 
+{
+	top: 1px;
 }
 /*Button sizes*/
 .small.gradient-button
@@ -371,6 +332,114 @@ h2 span a
 span.menu-button
 {
 	font-size:.6em;
+}
+
+/* 2.0 Header */
+.header
+{
+	margin-top: 10px;
+	padding: 10px;
+}
+
+/* 2.1 Main navigation */
+.header ul
+{
+  background:#00A6CB;
+  color:#fff;
+  list-style:none;
+  margin:0;
+  padding:10px 0 10px 0;
+  font-weight:bold;
+}
+
+.header ul li
+{
+  display:inline;
+}
+.header ul li a
+{
+  color:#fff;
+  text-decoration:none;
+  padding:10px;
+}
+.header ul li a.selected
+{
+  background:#00d0fe;
+  color:#fff;
+  text-decoration:none;
+  -moz-box-shadow:inset 0 0 10px #00a6cb;
+  -webkit-box-shadow:inset 0 0 10px #00a6cb;
+  box-shadow:inset 0 0 10px #00a6cb;
+}
+.header ul li a:hover
+{
+  background:#00d0fe;
+  color:#fff;
+  text-decoration:none;
+  -moz-box-shadow:inset 0 0 10px #00a6cb;
+  -webkit-box-shadow:inset 0 0 10px #00a6cb;
+  box-shadow:inset 0 0 10px #00a6cb;
+}
+
+/* 3.0 Body */
+.container
+{
+	margin: 0 auto;
+	width: 980px;
+}
+/* 3.1 Content */
+.content-container
+{
+  margin:0 10px 10px 10px;
+	background:#fff;
+}
+.content
+{
+	padding:10px;
+}
+.content table
+{
+	width:800px;
+	text-align:left;
+	float:left;
+	margin-right:10px;
+}
+.content table th
+{
+	background:#dcf9ff;
+	padding:5px;
+}
+.content table td
+{
+	padding:5px;
+	vertical-align:middle;
+}
+.content table tr:hover
+{
+	background:#fed;
+}
+.content table td .File-Status-Info
+{
+	display:block;
+	color:#c9c9c9;
+	font-size:.8em;
+}
+.content table tr:nth-of-type(odd)
+{
+	background-color:#dcf9ff;
+}
+.content table tr:nth-of-type(odd):hover
+{
+	background-color:#fed;
+}
+
+.content .right-options
+{
+	float:right;
+}
+.content .left-content
+{
+	float:left;
 }
 
 /*Login page
@@ -450,25 +519,7 @@ DIV#login-box .error-fieldset P
 
 
 /*Content styling for sub pages*/
-.container
-{
-	margin: 0 auto;
-	width: 960px;
-}
-.header-container
-{
-	margin-top: 10px;
-	padding: 10px;
-	background: #FFF;
-	border: 1px solid #EDEDED;
-	-moz-box-shadow: 3px 3px 5px #ECECEC;
-	-webkit-box-shadow: 3px 3px 5px #ECECEC;
-	box-shadow: 3px 3px 5px #ECECEC;
-}
-.header-container #search
-{
-	float: right;
-}
+
 
 .nav
 {
@@ -509,66 +560,7 @@ DIV#login-box .error-fieldset P
 	border-bottom:1px solid #fff;
 }
 
-/*Content*/
-.content-container
-{
-	background:#fff;
-	margin-top:-6px;
-	/*
-	border: 1px solid #EDEDED;
-	-moz-box-shadow: 3px 3px 5px #c9c9c9
-	-webkit-box-shadow: 3px 3px 5px #C9C9C9;
-	box-shadow: 3px 3px 5px #c9c9c9
-	*/
-}
-.content
-{
-	padding:10px;
-}
-.content table
-{
-	width:800px;
-	text-align:left;
-	float:left;
-	margin-right:10px;
-}
-.content table th
-{
-	background:#dcf9ff;
-	padding:5px;
-}
-.content table td
-{
-	padding:5px;
-	vertical-align:middle;
-}
-.content table tr:hover
-{
-	background:#fed;
-}
-.content table td .File-Status-Info
-{
-	display:block;
-	color:#c9c9c9;
-	font-size:.8em;
-}
-.content table tr:nth-of-type(odd) 
-{
-	background-color:#dcf9ff;
-}
-.content table tr:nth-of-type(odd):hover
-{
-	background-color:#fed;
-}
 
-.content .right-options
-{
-	float:right;
-}
-.content .left-content
-{
-	float:left;
-}
 
 /*
  * Media queries for responsive design
