@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2a0b9a3-60d5-4506-99b3-384cb544e750" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectList.htm" afterPath="$PROJECT_DIR$/ProjectList.htm" />
+      <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\images\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\images\Header.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\images\background.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\images\headerBG.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\images\headerImg1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\images\headerImg2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\images\headerImg3.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\images\reel_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\images\slider-button-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\images\slider-button-grey.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\images\slider.png" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\ProjectList.htm" afterPath="$PROJECT_DIR$/Dashboard.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Logo.png" afterPath="$PROJECT_DIR$/Assets/Logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo.png" afterPath="$PROJECT_DIR$/images/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="Contract-Right.iws" />
@@ -39,11 +53,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectList.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProjectList.htm">
+      <file leaf-file-name="Dashboard.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dashboard.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="24" selection-start="1951" selection-end="1951" vertical-scroll-proportion="-28.038462">
-              <folding />
+            <state line="93" column="17" selection-start="3034" selection-end="3034" vertical-scroll-proportion="-30.73077">
+              <folding>
+                <element signature="tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,7 +67,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="371" column="35" selection-start="9047" selection-end="9047" vertical-scroll-proportion="0.6455266">
+            <state line="356" column="11" selection-start="8802" selection-end="8802" vertical-scroll-proportion="0.5583239">
               <folding />
             </state>
           </provider>
@@ -105,6 +121,7 @@
       <list>
         <option value="$PROJECT_DIR$/ClientList.htm" />
         <option value="$PROJECT_DIR$/ProjectList.htm" />
+        <option value="$PROJECT_DIR$/Dashboard.htm" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
@@ -174,6 +191,13 @@
     </panes>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -264,16 +288,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectList.htm">
+    <entry file="file://$PROJECT_DIR$/Dashboard.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="24" selection-start="1951" selection-end="1951" vertical-scroll-proportion="-28.038462">
-          <folding />
+        <state line="93" column="17" selection-start="3034" selection-end="3034" vertical-scroll-proportion="-30.73077">
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="371" column="35" selection-start="9047" selection-end="9047" vertical-scroll-proportion="0.6455266">
+        <state line="356" column="11" selection-start="8802" selection-end="8802" vertical-scroll-proportion="0.5583239">
           <folding />
         </state>
       </provider>
