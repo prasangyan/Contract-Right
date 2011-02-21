@@ -478,6 +478,13 @@ span.menu-button
   display:inline;
   font-size:.8em;
 }
+/*5.1 Filter */
+.filter
+{
+  background:url("../images/texture.jpg");
+  padding:10px;
+  margin-bottom:10px;
+}
 /*Login page
 Centering code taken from http://perishablepress.com/press/2007/09/25/absolute-horizontal-and-vertical-centering-via-css*/
 DIV#login-box-container
