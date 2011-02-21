@@ -195,7 +195,7 @@ input:invalid, textarea:invalid {
 ::selection { background:#00a6cb; color:#fff; text-shadow: none; } 
 
 /*  j.mp/webkit-tap-highlight-color */
-a:link { -webkit-tap-highlight-color: #FF5E99; } 
+a:link { -webkit-tap-highlight-color: #00a6cb; } 
 
 /* make buttons play nice in IE:    
 	 www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
@@ -413,50 +413,7 @@ span.menu-button
 {
 	padding:10px;
 }
-.content table
-{
-	width:800px;
-	text-align:left;
-	float:left;
-	margin-right:10px;
-}
-.content table th
-{
-	background:#dcf9ff;
-	padding:5px;
-}
-.content table td
-{
-	padding:5px;
-	vertical-align:middle;
-}
-.content table tr:hover
-{
-	background:#fed;
-}
-.content table td .File-Status-Info
-{
-	display:block;
-	color:#c9c9c9;
-	font-size:.8em;
-}
-.content table tr:nth-of-type(odd)
-{
-	background-color:#dcf9ff;
-}
-.content table tr:nth-of-type(odd):hover
-{
-	background-color:#fed;
-}
 
-.content .right-options
-{
-	float:right;
-}
-.content .left-content
-{
-	float:left;
-}
 
 /* 4.0 Dashboard Page */
 /* 4.1 Project list */
@@ -489,6 +446,37 @@ span.menu-button
   float:left;
   width:48%;
   margin-left:2%;
+}
+
+/* 5.0 File List */
+.file-list
+{
+  
+}
+
+.file-list ul
+{
+  list-style:none;
+  margin:0;
+}
+.file-list ul li
+{
+  margin-bottom:10px;
+}
+/* Todo: See if there is a better way of position the image without using negative margins */
+.file-list ul li img
+{
+  margin-bottom:-4px;
+  margin-right:5px;
+}
+.file-list ul.file-menu
+{
+  list-style:none;
+}
+.file-list ul.file-menu li
+{
+  display:inline;
+  font-size:.8em;
 }
 /*Login page
 Centering code taken from http://perishablepress.com/press/2007/09/25/absolute-horizontal-and-vertical-centering-via-css*/
@@ -564,51 +552,6 @@ DIV#login-box .error-fieldset P
 {
 	color: #FF1300;
 }
-
-
-/*Content styling for sub pages*/
-
-
-.nav
-{
-	padding:10px;
-}
-.nav ul
-{
-	list-style:none;
-	margin:10px 0 0 0;
-	padding:0px;
-}
-.nav li
-{
-	display:inline;
-	font-weight:bold;
-	padding-right:10px;
-}
-
-.nav li a:link
-{
-	text-decoration:none;
-	background:#00A6CB;
-	color:#fff;
-	padding:5px;	
-}
-.nav li a:hover
-{
-	background:#fff;
-	color:#00A6CB;
-	border-bottom:1px solid #fff;
-}
-.nav li a.selected
-{
-	text-decoration:none;
-	background:#FFF;
-	color:#00A6CB;
-	padding:5px;
-	border-bottom:1px solid #fff;
-}
-
-
 
 /*
  * Media queries for responsive design

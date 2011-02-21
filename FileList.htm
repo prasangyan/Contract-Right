@@ -1,4 +1,6 @@
-<!doctype html>  
+<!-- ToDo: The title should show the project name based on the project selected -->
+
+<!doctype html>
 
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --> 
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
@@ -13,7 +15,7 @@
        Remove this if you use the .htaccess -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Project Server Simplified</title>
+  <title>File List - Project Name</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -37,58 +39,97 @@
 </head>
 
 <body>
+
+  <div class="header">
+    <img src="images/logo.png" />
+    <ul>
+      <li><a href="#"  class="selected">Dashboard</a></li>
+      <li><a href="#">Documents</a></li>
+      <li><a href="#">Project List</a></li>
+      <li><a href="#">Admin</a></li>
+    </ul>
+   </div>
 	<div class="container">
-		
-		<div class="header-container">
-			<div class="header">
-				<img src="images/logo.png" />
-				<fieldset id="search">
-					<input type="text" class="" value="search">
-					<span class="menu-button"><a href="#" class="small blue gradient-button">Search</a></span>
-				</fieldset>
-			</div>
-		</div>
-		
-		<div class="nav">
-			<ul>
-				<!-- <li><a href="#">Client List</a></li> -->
-				<li><a class="selected" href="#">File List</a></li>
-				<li><a href="#">File List</a></li>
-			</ul>
-		</div>
-		
-		<div class="content-container">
-			<div class="content">
-				<h3>Project Name</h3>
-				<table>
-					<tr>
-						<td><img src="images\fileicons\docx.png" /></td>
-						<td class="file-name"><a href="#">Some really long fine name to see how this looks</a></td>
-						<td><span class="File-Status-Info">Last modified:</span><a href="#">16/1/2011</a></td>
-					</tr>
-					<tr>
-						<td><img src="images\fileicons\dwg.png" /></td>
-						<td class="file-name"><a href="#">Some really long fine name to see how this looks</a></td>
-						<td><span class="File-Status-Info">Last modified:</span><a href="#">16/1/2011</a></td>
-					</tr>
-					<tr>
-						<td><img src="images\fileicons\mmf.png" /></td>
-						<td class="file-name"><a href="#">Some really long fine name to see how this looks</a></td>
-						<td><span class="File-Status-Info">Last modified:</span><a href="#">16/1/2011</a></td>
-					</tr>
-					<tr>
-						<td><img src="images\fileicons\pdf.png" /></td>
-						<td class="file-name"><a href="#">Some really long fine name to see how this looks</a></td>
-						<td><span class="File-Status-Info">Last modified:</span><a href="#">16/1/2011</a></td>
-					</tr>
-			</table>
-			<div class="right-options">
-				<span class="menu-button"><a href="#" class="small blue gradient-button">Upload documents</a></span>
-			</div>
-			<div class="clearfix"></div>
-			</div>
-		</div>
-		
+
+    <!-- Todo:Decide how to show the project name and decide if it should list out all the projects. -->
+    <!-- Todo: Decide if the project selection option should go along with the navigation on the top -->
+    <div class="content">
+      <h2>Correspondence</h2>
+      <h3>
+        Project Name
+        <span class="menu-button"><a href="#" class="small orange gradient-button">+ Add document</a></span>
+      </h3>
+      <!-- Todo: create a styling for the filter box -->
+      <!--
+      <div class="filter">
+        I want to group by <a href="#">All categories</a> and then by <a href="#">All sub-categories</a> then by <a
+              href="#">All sub-categories</a> 
+      </div>
+      -->
+      
+      <div class="file-list">
+        <ul>
+          <li>
+            <!-- Todo: Make sure that clicking on the files, downloads the file and does not take the user to another
+             page -->
+            <img src="images/icons/email.png"/>
+            <a href="#">Some fancy file name</a>
+            <ul class="file-menu" >
+              <li><a href="#">Add Comments</a></li>
+              <li><a href="#">10 Comments</a></li>
+              <li><a href="#">View History</a></li>
+            </ul>
+          </li>
+          <li>
+            <img src="images/icons/document.png"/>
+            <a href="#">Some fancy file name</a>
+            <ul class="file-menu" >
+              <li><a href="#">Add Comments</a></li>
+              <li><a href="#">10 Comments</a></li>
+              <li><a href="#">View History</a></li>
+            </ul>
+          </li>
+          <li>
+            <img src="images/icons/email.png"/>
+            <a href="#">Some fancy file name that has a really long name. Let us see how this looks when it comes
+              down to the system which is still not long enough to see how this looks</a>
+            <ul class="file-menu" >
+              <li><a href="#">Add Comments</a></li>
+              <li><a href="#">10 Comments</a></li>
+              <li><a href="#">View History</a></li>
+            </ul>
+          </li>
+          <li>
+            <img src="images/icons/document.png"/>
+            <a href="#">Some fancy file name</a>
+            <ul class="file-menu" >
+              <li><a href="#">Add Comments</a></li>
+              <li><a href="#">10 Comments</a></li>
+              <li><a href="#">View History</a></li>
+            </ul>
+          </li>
+          <li>
+            <img src="images/icons/document.png"/>
+            <a href="#">Some fancy file name</a>
+            <ul class="file-menu" >
+              <li><a href="#">Add Comments</a></li>
+              <li><a href="#">10 Comments</a></li>
+              <li><a href="#">View History</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- Todo: Create styling for the project info box -->
+        <!--
+        <div class="project-highlights">
+          This is the place where people will be shown where they can mail emails to, to keep a record
+        </div>
+        -->
+
+      </div>
+
+    </div>
+
+
 	</div>
 
 
