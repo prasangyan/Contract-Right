@@ -481,10 +481,67 @@ span.menu-button
 /*5.1 Filter */
 .filter
 {
-  background:url("../images/texture.jpg");
+  background:url("../images/textureV2.png");
   padding:10px;
   margin-bottom:10px;
 }
+
+/* 5.2 Document History */
+.file-history
+{
+  background:url("../images/textureV2.png");
+  padding:10px;
+  margin:10px 0 10px 0;
+}
+.file-history h4
+{
+  font-size:.9em;
+  font-weight:bold;
+  text-transform:uppercase;
+  margin-bottom:5px;
+}
+.file-history ul
+{
+  list-style:none;
+  margin:0;
+}
+.file-history ul li
+{
+  margin-bottom:4px;
+
+}
+.file-history span
+{
+  
+}
+
+
+/* The following section is there in case I want to use a icon and hover effect for a menu*/
+
+/*Todo: Get rid if this element, this is there right now because the default hover over styles takes overs,
+if this information is not available */
+/*
+.file-history a
+{
+  background:url("../images/icons2/FileDownloadDefault.png") no-repeat;
+
+}
+.file-history .download
+{
+  background-image:url("../images/icons2/FileDownloadDefault.png");
+  width:11px;
+  height:20px;
+  display:inline-block;
+  margin-bottom:-5px;
+  margin-left:10px;
+}
+.file-history .download:hover
+{
+  background-image:url("../images/icons2/FileDownloadHover.png");
+}
+*/
+
+
 /*Login page
 Centering code taken from http://perishablepress.com/press/2007/09/25/absolute-horizontal-and-vertical-centering-via-css*/
 DIV#login-box-container
