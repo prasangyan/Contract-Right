@@ -57,7 +57,7 @@
       <file leaf-file-name="Reset-Password-Mail-Template.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Reset-Password-Mail-Template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="489" selection-end="489" vertical-scroll-proportion="0.38169256">
+            <state line="24" column="12" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.7046632">
               <folding />
             </state>
           </provider>
@@ -324,7 +324,7 @@
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Addded a reset password email notification template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added styling for the reset password email template" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -340,6 +340,7 @@
     <MESSAGE value="Partially cleaned up the CSS - added some documentation in the CSS files. Cleaned up the project repository by removing unneeded css files.&#10; Changed the naviation styles and added a body background" />
     <MESSAGE value="Added a login button on the login page and a page for forgot password" />
     <MESSAGE value="Addded a reset password email notification template" />
+    <MESSAGE value="Added styling for the reset password email template" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -436,7 +437,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Reset-Password-Mail-Template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="489" selection-end="489" vertical-scroll-proportion="0.38169256">
+        <state line="24" column="12" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.7046632">
           <folding />
         </state>
       </provider>
