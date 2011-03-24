@@ -275,7 +275,7 @@ h2
 h3
 {
 	font-size:1.4em;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
   padding-bottom:10px;
   border-bottom:#c9c9c9 6px solid;
 }
@@ -448,6 +448,18 @@ span.menu-button
   margin-left:2%;
 }
 
+.activity-stream h3
+{
+  padding-bottom:13px;
+  margin-bottom:10px;
+}
+
+.activity-stream ul
+{
+  list-style:none;
+  margin:0;
+}
+
 /* 5.0 File List */
 .file-list
 {
@@ -563,9 +575,12 @@ DIV#login-box
 	margin-top: 40px;
 	padding: 10px;
 	border: 1px solid #EDEDED;
+
+  /*
 	-moz-box-shadow: 3px 3px 5px #ECECEC;
 	-webkit-box-shadow: 3px 3px 5px #ECECEC;
 	box-shadow: 3px 3px 5px #ECECEC;
+	*/
 }
 DIV#login-box H1
 {
@@ -596,6 +611,7 @@ DIV#login-box FIELDSET
 DIV#login-box .forgot-password
 {
 	padding-left:5px;
+  margin-top:20px;
 }
 DIV#login-box .error
 {
@@ -615,6 +631,17 @@ DIV#login-box .error-fieldset
 DIV#login-box .error-fieldset P
 {
 	color: #FF1300;
+}
+
+#login-box span
+{
+  font-size:.9em;
+  margin-left:5px;
+}
+
+#login-box .forgot-password
+{
+
 }
 
 /*

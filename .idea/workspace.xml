@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2a0b9a3-60d5-4506-99b3-384cb544e750" name="Default" comment="">
+    <list default="true" id="e2a0b9a3-60d5-4506-99b3-384cb544e750" name="Default" comment="Added">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/shadows.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forgot-password-success.htm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/forgot-password.htm" />
       <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\Assets\Favicon.png" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\Assets\Icons.ai" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\Assets\LOGO-WHITE.ai" afterPath="" />
@@ -14,8 +17,9 @@
       <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\Assets\favicon.ico" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\Assets\textureV2.png" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\Assets\title-bottom-border.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo.png" afterPath="$PROJECT_DIR$/images/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.htm" afterPath="$PROJECT_DIR$/login.htm" />
     </list>
     <ignored path="Contract-Right.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,37 +43,19 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" showNonProject="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FileHistory.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FileHistory.htm">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="26" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.0">
+            <state line="641" column="27" selection-start="13053" selection-end="13053" vertical-scroll-proportion="-11.12">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileList.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FileList.htm">
+      <file leaf-file-name="forgot-password.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forgot-password.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="17" selection-start="3663" selection-end="3663" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContentEditAble_Demo.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiments/ContentEditAble_Demo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="7" selection-start="550" selection-end="550" vertical-scroll-proportion="-18.307692">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="warp-shadow.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../Mipony/cc-css3sp_wch/Source/Demos/Warp Shadow/warp-shadow.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="49" selection-start="657" selection-end="657" vertical-scroll-proportion="-13.730769">
+            <state line="51" column="29" selection-start="2155" selection-end="2155" vertical-scroll-proportion="-8.5">
               <folding />
             </state>
           </provider>
@@ -78,34 +64,7 @@
       <file leaf-file-name="login.htm" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/login.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="81" selection-start="100" selection-end="100" vertical-scroll-proportion="0.038548753">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../Mipony/cc-css3sp_wch/Source/Demos/Warp Shadow/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DragAndDrop.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiments/DragAndDrop.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="191" column="7" selection-start="5169" selection-end="5169" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="518" column="90" selection-start="11079" selection-end="11079" vertical-scroll-proportion="0.0">
+            <state line="35" column="54" selection-start="1595" selection-end="1595" vertical-scroll-proportion="0.26597583">
               <folding />
             </state>
           </provider>
@@ -159,13 +118,17 @@
       <list>
         <option value="$PROJECT_DIR$/ClientList.htm" />
         <option value="$PROJECT_DIR$/ProjectList.htm" />
-        <option value="$PROJECT_DIR$/Dashboard.htm" />
         <option value="$PROJECT_DIR$/experiments/jquery.fancybox-1.3.4/index.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/FileHistory.htm" />
         <option value="$PROJECT_DIR$/FileList.htm" />
         <option value="$PROJECT_DIR$/experiments/DragAndDrop.html" />
         <option value="$PROJECT_DIR$/experiments/ContentEditAble_Demo.html" />
+        <option value="$PROJECT_DIR$/../../../Mipony/cc-css3sp_wch/Source/shadows.css" />
+        <option value="$USER_HOME$/Downloads/ProjectGovernanceReport/ProjectGovernanceReport/report.html" />
+        <option value="$PROJECT_DIR$/Dashboard.htm" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/forgot-password.htm" />
+        <option value="$PROJECT_DIR$/login.htm" />
       </list>
     </option>
   </component>
@@ -195,7 +158,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,21 +200,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="experiments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery.fancybox-1.3.4" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="Html" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Prashant\Documents\India\Design\Contract-Right" />
+      <recent name="C:\Users\Prashant\Documents\India\Design\Contract-Right\css" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
@@ -298,6 +263,7 @@
     <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <configuration useDefault="true">C:\Users\Prashant\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
@@ -329,17 +295,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1272" y="-8" width="1696" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="true" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="1580" y="524" width="985" height="408" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19963811" sideWeight="0.6707504" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23608904" sideWeight="0.6713178" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -383,67 +349,96 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/experiments/jquery.fancybox-1.3.4/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="46" selection-start="2886" selection-end="2886" vertical-scroll-proportion="-28.423077" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClientList.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="686" selection-end="686" vertical-scroll-proportion="-0.65384614" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dashboard.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="114" selection-start="1997" selection-end="2099" vertical-scroll-proportion="0.019274376" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileHistory.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="26" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileList.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="17" selection-start="3663" selection-end="3663" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experiments/DragAndDrop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="7" selection-start="5169" selection-end="5169" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="191" column="7" selection-start="5169" selection-end="5169" vertical-scroll-proportion="0.88262373" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/css/shadows.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="518" column="90" selection-start="11079" selection-end="11079" vertical-scroll-proportion="0.0" />
+        <state line="29" column="23" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Mipony/cc-css3sp_wch/Source/Demos/Warp Shadow/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="16" selection-start="339" selection-end="339" vertical-scroll-proportion="0.3469163" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Mipony/cc-css3sp_wch/Source/shadows.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="36" selection-start="630" selection-end="630" vertical-scroll-proportion="0.40430352" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Mipony/cc-css3sp_wch/Source/Demos/Warp Shadow/warp-shadow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="24" selection-start="337" selection-end="347" vertical-scroll-proportion="0.26984128" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/experiments/ContentEditAble_Demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="7" selection-start="550" selection-end="550" vertical-scroll-proportion="-18.307692">
+        <state line="28" column="7" selection-start="550" selection-end="550" vertical-scroll-proportion="0.53968257" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileList.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="17" selection-start="3663" selection-end="3663" vertical-scroll-proportion="0.019274376" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileHistory.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="26" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.019274376" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ProjectGovernanceReport/ProjectGovernanceReport/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="75" selection-start="3083" selection-end="3083" vertical-scroll-proportion="0.16213152" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/ProjectGovernanceReport/ProjectGovernanceReport/jquery.ganttView.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="3" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Mipony/cc-css3sp_wch/Source/Demos/Warp Shadow/style.css">
+    <entry file="file://$PROJECT_DIR$/index.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Mipony/cc-css3sp_wch/Source/Demos/Warp Shadow/warp-shadow.html">
+    <entry file="file://$PROJECT_DIR$/Dashboard.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="49" selection-start="657" selection-end="657" vertical-scroll-proportion="-13.730769">
+        <state line="57" column="69" selection-start="2048" selection-end="2054" vertical-scroll-proportion="-4.4615383">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="641" column="27" selection-start="13053" selection-end="13053" vertical-scroll-proportion="-11.12">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forgot-password-success.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="66" selection-start="234" selection-end="234" vertical-scroll-proportion="-0.67530227">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forgot-password.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="29" selection-start="2155" selection-end="2155" vertical-scroll-proportion="-8.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/login.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="81" selection-start="100" selection-end="100" vertical-scroll-proportion="0.038548753">
+        <state line="35" column="54" selection-start="1595" selection-end="1595" vertical-scroll-proportion="0.26597583">
           <folding />
         </state>
       </provider>
