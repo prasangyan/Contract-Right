@@ -261,6 +261,17 @@ A:hover
 	background: #00A6CB;
 	color: #FFFFFF;
 }
+
+/*Sub Menu*/
+a.sub-menu:link, a.sub-menu:visited
+{
+  color: #999999;
+}
+a.sub-menu:hover
+{
+  background: #999999;
+  color:#fff;
+}
 H1
 {
 	font-size: 2.1em;
@@ -461,6 +472,11 @@ span.menu-button
 }
 
 /* 5.0 File List */
+.file-list-container
+{
+  float:left;
+  width:640px;
+}
 .file-list
 {
   
@@ -489,6 +505,14 @@ span.menu-button
 {
   display:inline;
   font-size:.8em;
+}
+
+.notice
+{
+  float:left;
+  width:280px;
+  padding:10px;
+  background:#dcf9ff;
 }
 /*5.1 Filter */
 .filter
