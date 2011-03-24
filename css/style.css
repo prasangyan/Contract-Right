@@ -613,6 +613,10 @@ DIV#login-box .forgot-password
 	padding-left:5px;
   margin-top:20px;
 }
+div#login-box .forgot-password-information
+{
+  padding-left:5px;
+}
 DIV#login-box .error
 {
 	padding-bottom: 5px;
@@ -639,10 +643,6 @@ DIV#login-box .error-fieldset P
   margin-left:5px;
 }
 
-#login-box .forgot-password
-{
-
-}
 
 /*
  * Media queries for responsive design
