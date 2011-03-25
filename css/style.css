@@ -290,7 +290,10 @@ h3
   padding-bottom:10px;
   border-bottom:#c9c9c9 6px solid;
 }
-
+p
+{
+  margin-bottom:.6em;
+}
 /* 1.2 Button */
 
 a.gradient-button, .gradient-button:visited
@@ -475,7 +478,8 @@ span.menu-button
 .file-list-container
 {
   float:left;
-  width:640px;
+  width:620px;
+  margin-right:20px;
 }
 .file-list
 {
@@ -507,12 +511,25 @@ span.menu-button
   font-size:.8em;
 }
 
-.notice
+.notice-container
 {
   float:left;
   width:280px;
   padding:10px;
-  background:#dcf9ff;
+  background:url("../images/textureV2.png");
+  /*background:#dcf9ff;*/
+}
+
+.notice
+{
+  font-size:.9em;
+}
+/* Todo: Combine this with the style for the file history. This is being repeated. */
+.notice h4
+{
+  font-weight:bold;
+  text-transform:uppercase;
+  margin-bottom:5px;
 }
 /*5.1 Filter */
 .filter
@@ -549,6 +566,19 @@ span.menu-button
 .file-history span
 {
   
+}
+
+/*6.0 Correspondence Comments*/
+.comments-container
+{
+  border-top:1px solid #999999;
+  margin-top:10px;
+  padding-top:10px;
+}
+
+.comment
+{
+
 }
 
 
