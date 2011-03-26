@@ -576,10 +576,80 @@ span.menu-button
   padding-top:10px;
 }
 
+.comments-container input
+{
+  width:620px;
+  height:100px;
+  margin-bottom:10px;
+}
+
+.comments-container span
+{
+  display:block;
+}
+
+.comments-container h4
+{
+  margin-bottom:20px;
+}
+
+.single-comment
+{
+  border-bottom:1px solid #999;
+  margin-bottom:20px;
+}
+
+.commenter-details
+{
+  
+}
+
+.commenter-details img
+{
+  float:left;
+  margin-right:10px;
+}
+
+.commenter-details p
+{
+  margin-bottom:0px;
+}
+
+.commenter-details .comment-created-date
+{
+  color:#999;
+  font-size:.8em;
+}
+
 .comment
 {
-
+  margin-left:60px;
 }
+
+/* 7.0 Popup forms */
+form.popup
+{
+  font-size:.9em;
+  font-weight:bold;
+  color:#999;
+}
+
+form.popup input.single-line
+{
+  display:block;
+  margin-bottom:10px;
+  width:400px;
+  height:30px;
+  font-size:1.2em;
+  font-weight:bold;
+}
+
+form.popup span
+{
+  margin-top:10px;
+  font-size:.9em;
+}
+
 
 
 /* The following section is there in case I want to use a icon and hover effect for a menu*/

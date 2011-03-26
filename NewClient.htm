@@ -1,4 +1,6 @@
-<!doctype html>  
+<!-- ToDo: The title should show the project name based on the project selected -->
+
+<!doctype html>
 
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ --> 
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
@@ -13,7 +15,7 @@
        Remove this if you use the .htaccess -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Client list</title>
+  <title>Add new client</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -37,55 +39,16 @@
 </head>
 
 <body>
-	<div class="container">
 
-		<div class="header-container">
-			<div class="header">
-				<img src="images/logo.png" />
-        <ul>
-          <li><a href="#">Navigation</a></li>
-          <li><a href="#">Navigation</a></li>
-          <li><a href="#">Navigation</a></li>
-          <li><a href="#">Navigation</a></li>
-        </ul>
-			</div>
-		</div>
-		
-		<div class="content-container">
-			<div class="content">
-				<h3>Client Name</h3>
-				<table>
-          <thead>
-            <tr>
-						<th scope="col">Indicator</th>
-						<th scope="col">Client Name</th>
-						<th scope="col">Projects</th>
-					</tr>
-          </thead>
-					<tr>
-						<td><a href="#">20 new files</a></td>
-						<td><a href="#">SOMA</a></td>
-						<td>10</td>
-					</tr>
-					<tr>
-						<td><a href="#">20 new files</a></td>
-						<td><a href="#">SEW</a></td>
-						<td>10</td>
-					</tr>
-					<tr>
-						<td><a href="#">20 new files</a></td>
-						<td><a href="#">Wartsila</a></td>
-						<td>10</td>
-					</tr>
-					<tr>
-						<td><a href="#">20 new files</a></td>
-						<td><a href="#">Empee</a></td>
-						<td>10</td>
-					</tr>
-				</table>
-			</div>
-		</div>
-		
+  
+	<div class="container">
+    <div class="content">
+      <form class="popup";>
+        Client Name
+        <input type="text" class="single-line">
+        <span class="menu-button"><a href="#" class="small blue gradient-button">Create new client</a></span>
+      </form>
+    </div>
 	</div>
 
 

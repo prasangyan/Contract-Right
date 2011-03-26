@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2a0b9a3-60d5-4506-99b3-384cb544e750" name="Default" comment="Added a project list page, modified the dashbaord page and the File List page">
-      <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\index.htm" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\sub-page.htm" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Prashant\Documents\India\Design\Contract-Right\AuditTrail.htm" afterPath="$PROJECT_DIR$/FileDetails.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FileList.htm" afterPath="$PROJECT_DIR$/FileList.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-    </list>
+    <list default="true" id="e2a0b9a3-60d5-4506-99b3-384cb544e750" name="Default" comment="" />
     <ignored path="Contract-Right.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,17 +27,40 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="580" column="0" selection-start="11824" selection-end="11824" vertical-scroll-proportion="0.0">
+            <state line="652" column="0" selection-start="12608" selection-end="12608" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileDetails.htm" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FileDetails.htm">
+      <file leaf-file-name="NewClient.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewClient.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="29" selection-start="4372" selection-end="4372" vertical-scroll-proportion="0.7433832">
+            <state line="47" column="47" selection-start="1792" selection-end="1792" vertical-scroll-proportion="-10.115385">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewProject.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NewProject.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="96" selection-start="1890" selection-end="1890" vertical-scroll-proportion="-21.346153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UploadFile.htm" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UploadFile.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="51" selection-start="1861" selection-end="1861" vertical-scroll-proportion="0.74716556">
+              <folding>
+                <marker date="1301140179564" expanded="true" signature="2648:2830" placeholder="..." />
+                <marker date="1301140179564" expanded="true" signature="3050:3180" placeholder="..." />
+                <marker date="1301140179564" expanded="true" signature="3193:3559" placeholder="..." />
+                <marker date="1301140179564" expanded="true" signature="3281:3526" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,7 +68,7 @@
       <file leaf-file-name="FileList.htm" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FileList.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="182" column="22" selection-start="6762" selection-end="6762" vertical-scroll-proportion="-24.846153">
+            <state line="59" column="117" selection-start="2252" selection-end="2361" vertical-scroll-proportion="-10.153846">
               <folding />
             </state>
           </provider>
@@ -104,21 +120,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ClientList.htm" />
-        <option value="$PROJECT_DIR$/experiments/jquery.fancybox-1.3.4/index.html" />
         <option value="$PROJECT_DIR$/FileHistory.htm" />
         <option value="$PROJECT_DIR$/experiments/DragAndDrop.html" />
         <option value="$PROJECT_DIR$/experiments/ContentEditAble_Demo.html" />
         <option value="$PROJECT_DIR$/../../../Mipony/cc-css3sp_wch/Source/shadows.css" />
         <option value="$USER_HOME$/Downloads/ProjectGovernanceReport/ProjectGovernanceReport/report.html" />
         <option value="$PROJECT_DIR$/Reset-Password-Mail-Template.html" />
-        <option value="$PROJECT_DIR$/Dashboard.htm" />
         <option value="$PROJECT_DIR$/login.htm" />
         <option value="$PROJECT_DIR$/forgot-password.htm" />
         <option value="$PROJECT_DIR$/ProjectList.htm" />
         <option value="$PROJECT_DIR$/FileList.htm" />
-        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/Dashboard.htm" />
         <option value="$PROJECT_DIR$/FileDetails.htm" />
+        <option value="$PROJECT_DIR$/NewClient.htm" />
+        <option value="$PROJECT_DIR$/NewProject.htm" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/UploadFile.htm" />
       </list>
     </option>
   </component>
@@ -168,6 +185,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Contract-Right" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Contract-Right" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -185,15 +216,15 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="241" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="910" />
-    <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="915" />
+    <property name="DefaultHtmlFileTemplate" value="Html" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="910" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="236" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="247" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -280,11 +311,12 @@
     <frame x="1272" y="-8" width="1696" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32868218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="1580" y="524" width="985" height="408" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17913148" sideWeight="0.67165774" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15319662" sideWeight="0.67165774" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32834226" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -292,7 +324,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -338,16 +369,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../Mipony/cc-css3sp_wch/Source/Demos/Warp Shadow/warp-shadow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="337" selection-end="347" vertical-scroll-proportion="0.26984128" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments/ContentEditAble_Demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="7" selection-start="550" selection-end="550" vertical-scroll-proportion="0.53968257" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/ProjectGovernanceReport/ProjectGovernanceReport/report.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="75" selection-start="3083" selection-end="3083" vertical-scroll-proportion="0.16213152" />
@@ -363,31 +384,6 @@
         <state line="4" column="66" selection-start="234" selection-end="234" vertical-scroll-proportion="-0.67530227" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Reset-Password-Mail-Template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="142" selection-end="142" vertical-scroll-proportion="0.07825086" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forgot-password.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="30" selection-start="814" selection-end="814" vertical-scroll-proportion="0.32312927" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="686" selection-end="686" vertical-scroll-proportion="0.28911564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectList.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="42" selection-start="3595" selection-end="3595" vertical-scroll-proportion="-26.73077" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dashboard.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="38" selection-start="5067" selection-end="5067" vertical-scroll-proportion="-20.923077" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Favicon.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -398,24 +394,85 @@
         <state line="66" column="26" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.46825397" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/login.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="580" column="0" selection-start="11824" selection-end="11824" vertical-scroll-proportion="0.0">
+        <state line="24" column="22" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.5664939">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileList.htm">
+    <entry file="file://$PROJECT_DIR$/ProjectList.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="22" selection-start="6762" selection-end="6762" vertical-scroll-proportion="-24.846153">
+        <state line="93" column="42" selection-start="3595" selection-end="3595" vertical-scroll-proportion="0.028716216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dashboard.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="103" selection-start="2087" selection-end="2087" vertical-scroll-proportion="0.7618243">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forgot-password.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="30" selection-start="814" selection-end="814" vertical-scroll-proportion="-7.5384617">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FileDetails.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="29" selection-start="4372" selection-end="4372" vertical-scroll-proportion="0.7433832">
+        <state line="105" column="36" selection-start="5298" selection-end="5298" vertical-scroll-proportion="-4.6153846">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reset-Password-Mail-Template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="142" selection-end="142" vertical-scroll-proportion="0.07825086">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileList.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="117" selection-start="2252" selection-end="2361" vertical-scroll-proportion="-10.153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewProject.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="96" selection-start="1890" selection-end="1890" vertical-scroll-proportion="-21.346153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewClient.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="47" selection-start="1792" selection-end="1792" vertical-scroll-proportion="-10.115385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="652" column="0" selection-start="12608" selection-end="12608" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UploadFile.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="51" selection-start="1861" selection-end="1861" vertical-scroll-proportion="0.74716556">
+          <folding>
+            <marker date="1301140179564" expanded="true" signature="2648:2830" placeholder="..." />
+            <marker date="1301140179564" expanded="true" signature="3050:3180" placeholder="..." />
+            <marker date="1301140179564" expanded="true" signature="3193:3559" placeholder="..." />
+            <marker date="1301140179564" expanded="true" signature="3281:3526" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
